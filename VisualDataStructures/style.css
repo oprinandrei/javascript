@@ -1,0 +1,15 @@
+.array-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+
+.array-container div {
+  margin: 0 2px;
+  border: 2px solid rgb(81, 81, 219);
+  padding: 10px;
+  color: black;
+  background-color: rgb(43, 146, 243);
+}
