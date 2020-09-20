@@ -1,4 +1,6 @@
-.array-container {
+.array-container,
+.list-container,
+.stack-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
@@ -7,12 +9,35 @@
   padding: 5px 10px;
 }
 
-.array-container div {
+.stack-container {
+  flex-flow: column-reverse wrap;
+}
+
+.array-container div,
+.list-container div,
+.stack-container div {
   width: 15px;
   margin: 2px;
   padding: 10px;
-  border: 2px solid rgb(81, 81, 219);
   color: black;
   text-align: center;
+}
+
+.stack-container div {
+  margin: auto;
+}
+
+.array-container div {
+  border: 2px solid rgb(81, 81, 219);
   background-color: rgb(43, 146, 243);
+}
+
+.list-container div {
+  border: 2px solid rgb(20, 121, 20);
+  background-color: rgb(50, 228, 50);
+}
+
+.stack-container div {
+  border: 2px solid rgb(184, 137, 7);
+  background-color: rgb(255, 169, 57);
 }
