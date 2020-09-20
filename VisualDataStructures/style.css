@@ -2,14 +2,17 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
+  min-height: 25px;
   border: 1px solid black;
   padding: 5px 10px;
 }
 
 .array-container div {
-  margin: 0 2px;
-  border: 2px solid rgb(81, 81, 219);
+  width: 15px;
+  margin: 2px;
   padding: 10px;
+  border: 2px solid rgb(81, 81, 219);
   color: black;
+  text-align: center;
   background-color: rgb(43, 146, 243);
 }
